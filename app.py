@@ -1,10 +1,9 @@
-import dash
 from dash import html
 from datetime import datetime
 import feffery_antd_components as fac
 from dash.dependencies import Input, Output, State
 
-app = dash.Dash(__name__)
+from server import app, server
 
 app.layout = html.Div(
     [
@@ -61,4 +60,4 @@ def update_result(validateStatus, value):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(debug=True)
