@@ -1,5 +1,5 @@
 import dash
 
-app = dash.Dash(compress=True)
+app = dash.Dash()
 server = app.server
 app.title = "dash应用示例"
