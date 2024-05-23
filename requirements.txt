@@ -1,2 +1,2 @@
-Flask
-Gunicorn
+dash==2.15.0
+feffery_antd_components==0.3.0rc12
