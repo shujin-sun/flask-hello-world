@@ -7,7 +7,7 @@ from server import app, server
 
 app.layout = html.Div(
     [
-        fac.AntdTitle("网站测试", level=1),
+        fac.AntdTitle("网站测试", level=2),
         fac.AntdFormItem(
             fac.AntdDateRangePicker(
                 id="date-range-picker", placement="topLeft", style={"width": 256}
