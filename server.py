@@ -32,4 +32,4 @@ app = CustomDash(
 
 
 server = app.server
-app.title = "dash应用示例"
+app.title = "电子木鱼 - 基于Dash"
