@@ -14,7 +14,7 @@ app.layout = fac.AntdCenter(
         fac.AntdSpace(
             [
                 fac.AntdText(
-                    "已攒功德数：0",
+                    "孙家琪已攒功德数：0",
                     id="gongde-count",
                     style=style(color="white", fontSize=36, fontFamily="KaiTi"),
                 ),
@@ -98,7 +98,7 @@ app.clientside_callback(
 def update_gongde_count(gongde_data):
     """控制功德统计"""
     return [
-        "已攒功德数：{}".format(gongde_data["gongde"]),
+        "孙家琪已攒功德数：{}".format(gongde_data["gongde"]),
         "已出金次数：{}".format(gongde_data["gold"]),
     ]
 
